@@ -107,30 +107,9 @@ result = import_export_router("Quels sont les documents nécessaires pour export
 - Séparateur personnalisé pour les codes SH
 
 ### LLM
-- Modèle : Mistral (via Ollama)
 - Modifiable dans `rag_routing.ipynb`
 
-## 📝 Notes Importantes
 
-1. **Modèles d'embedding** : Assurez-vous d'utiliser le même modèle d'embedding lors de la création des vector stores et lors de leur utilisation.
-
-2. **Chemins des documents** : Modifiez les chemins dans `rag_embedding_storing.ipynb` pour pointer vers vos propres documents.
-
-3. **Ollama** : Le système utilise Ollama pour le LLM local. Assurez-vous qu'Ollama est en cours d'exécution avant d'utiliser les notebooks.
-
-4. **Vector stores** : Les vector stores sont persistés dans `chroma_store/`. Ne supprimez pas ce dossier si vous voulez réutiliser les embeddings.
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
-
-## 📄 Licence
-
-Ce projet est sous licence MIT.
-
-## 👤 Auteur
-
-Créé dans le cadre d'un projet de stage.
 
 ## 🙏 Remerciements
 

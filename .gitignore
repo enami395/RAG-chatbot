@@ -1,0 +1,41 @@
+# Environment variables
+.env
+
+# Vector stores (générés localement)
+chroma_store/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documents personnels (ne pas commiter les documents sources)
+documents/*.docx
+documents/*.pdf
+documents/*.txt
+
+# Logs
+*.log

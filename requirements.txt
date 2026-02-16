@@ -1,0 +1,22 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+langchain-huggingface>=0.0.1
+
+# Vector store
+chromadb>=0.4.0
+
+# Document loaders
+docx2txt>=0.8
+pypdf>=3.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Optional: LangSmith (for tracing)
+# langsmith>=0.0.50
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
